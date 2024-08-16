@@ -41,13 +41,13 @@ View it [here](https://github.com/lazyperson1020/llama.cpp/pull/1)
 The following were the outcomes of this bot 
 Logs & Generated text file:-
 
-[<img width="450" src="Screenshot 2024-08-16 at 1.41.22 PM.jpg">](Screenshot 2024-08-16 at 1.41.22 PM.jpg)
+<img width="1000" src="Screenshot 2024-08-16 at 1.41.22 PM.jpg">
 
 
 
 Chatting through gaianet endpoint:-
 
-[<img width="450" src="Screenshot 2024-08-16 at 1.40.52 PM.png">](Screenshot 2024-08-16 at 1.40.52 PM.png)
+<img width="1000" src="Screenshot 2024-08-16 at 1.40.52 PM.png">
 
 
 # Made by ARNAV SHAH for LFX-wasmedge'24-term3
