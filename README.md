@@ -16,7 +16,7 @@ export GITHUB_REPO="github-repo"
 export GITHUB_PR_NUMBER="x"
 cargo run
 ```
-Once you have build everything and ran the commands, you will need the WeBhook endpoint as said earlier and use the following command to create the embeddings to further use it. You can change the collection name, vector size according to your choice.
+Once you have build everything and ran the commands, you will need the WeBhook endpoint {as stated in the RAG embeddings demo repo} and use the following commands to create the embeddings to further use it. You can change the collection name, vector size according to your choice.
 
 ```sh
 cd demo-RAG-embeddings
@@ -24,7 +24,7 @@ cargo build --target wasm32-wasi
 curl -i "https://code.flows.network/webhook/MY-FLOW-FUNCTION-ID?collection_name=my_kb&vector_size=1536&reset=1" -X POST --data-binary "@pr_summary.txt"
 ```
 
-Now to start the chat-app, just follow the instruction on the [repo](https://github.com/flows-network/demo-RAG-chatbot-web). Use the WeBhook endpoint url and set the parameters accordingly like the collection_name ; system_prompt ; and error_mesg and run the following with appropriate changes.
+Now to start the chat-app, just follow the instructions given in the [repo](https://github.com/flows-network/demo-RAG-chatbot-web). Use the WeBhook endpoint url and set the parameters accordingly like the collection_name ; system_prompt ; and error_mesg and run the following with appropriate changes.
 ```sh
 https://flows-chat-ui.vercel.app/?chat_url=https://code.flows.network/webhook/a-z
 ```
