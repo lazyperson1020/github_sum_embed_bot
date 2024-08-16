@@ -4,11 +4,7 @@
 #### Prerequisites to use it
  As this bot is nothing but an amalgamation of flows.network technologies, you will first need to register on flows.network. Next, you need the OpenAI integration as given in the flows.network RAG embeddings demo [repo](https://github.com/flows-network/demo-RAG-embeddings). As per it's instructions, you will get the Webhook endpoint which will be utilised further for the chat-app [repo](https://github.com/flows-network/demo-RAG-chatbot-web). To use this bot, you will also need API keys for OpenAI and Github and follow the instructions as given below. Please dont forget to download all necessary dependencies and packages such as rust, llvm, wasmedge, etc in your system before building this bot from soure.
 #### Building from source
- Just execute the following command in your terminal to clone this repo.
-```sh
-git clone 
-```
-When cloned, set the github repository owner name (for which you want to generate the pr summary); github repository name ; github api key; openAI api key and the corresponding pull request number. Let's say for the [PR](https://github.com/lazyperson1020/llama.cpp/pull/1) the github owner is "lazyperson1020", github repo is "llama.cpp", github pull request number is "1". 
+ Just clone this repo using git clone. When cloned, set the github repository owner name (for which you want to generate the pr summary); github repository name ; github api key; openAI api key and the corresponding pull request number. Let's say for the [PR](https://github.com/lazyperson1020/llama.cpp/pull/1) the github owner is "lazyperson1020", github repo is "llama.cpp", github pull request number is "1". 
 
 
 ```sh
